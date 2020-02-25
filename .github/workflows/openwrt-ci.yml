@@ -13,6 +13,10 @@ on:
   schedule:
     - cron: 0 20 * * *
 
+  push:
+    branches: 
+      - dev-lean-lede
+
 jobs:
 
   build:
